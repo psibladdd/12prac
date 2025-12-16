@@ -143,7 +143,10 @@ function initTable() {
         { id: 1, name: "School 2026", category: "Телеграм-бот", technologies: "Python, python-telegram-bot, SQLite", date: "2025-10-15", status: "completed", url: "https://github.com/psibladdd/school_2026" },
         { id: 2, name: "Dobro Bot", category: "Веб-сайт", technologies: "HTML, CSS, JavaScript, Python", date: "2025-11-20", status: "completed", url: "https://github.com/psibladdd/dobro" },
         { id: 3, name: "Dobrodrug Bot", category: "Телеграм-бот", technologies: "Python, python-telegram-bot, PostgreSQL", date: "2025-12-01", status: "in-progress", url: "https://github.com/psibladdd/dobrodrug" },
-        { id: 4, name: "Vozhak Python", category: "Игровой бот", technologies: "Python, aiogram, Redis", date: "2025-12-10", status: "in-progress", url: "https://github.com/psibladdd/vozhak_python" }
+        { id: 4, name: "Vozhak Python", category: "Игровой бот", technologies: "Python, aiogram, Redis", date: "2025-12-10", status: "in-progress", url: "https://github.com/psibladdd/vozhak_python" },
+        { id: 5, name: "12 Практика", category: "Лендинг", technologies: "HTML, CSS, JavaScript", date: "2025-12-16", status: "in-progress", url: "https://github.com/psibladdd/12prac" },
+        { id: 6, name: "Кастомный рандомайзер", category: "Лендинг", technologies: "HTML, CSS, JavaScript", date: "2024-11-22", status: "in-progress", url: "https://github.com/psibladdd/vozhak_random" },
+        { id: 7, name: "3D Город", category: "THREE JS", technologies: "REACT, JavaScript, HTML", date: "2025-07-15", status: "in-progress", url: "https://github.com/psibladdd/13" }
     ];
 
     function renderTable(data = tableData) {
